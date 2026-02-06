@@ -1,0 +1,32 @@
+Burp Suite: Repeater — Task-Wise Answers
+
+Task 1 — Introduction
+• No answer needed — just setup
+
+Task 2 — What is Repeater?
+• No answer required (concept introduction)
+
+Task 3 — Basic Usage
+• No answer required (practice sending/modifying requests)
+
+Task 4 — Views
+4.1 Which view shows the response as it would appear in a browser?
+→ Render
+
+Task 5 — Inspector
+• No answer needed (practice with Inspector)
+
+Task 6 — Example — Flag from Custom Header
+6.1 What flag do you get after adding the header FlagAuthorised: True and sending?
+→ THM{Yzg2MWI2ZDhlYzdlNGFiZTUzZTIzMzVi}
+
+Task 7 — Practical Challenge — Internal Server Error Flag
+7.1 What flag do you get when you cause a 500 Internal Server Error by altering the endpoint input?
+→ THM{N2MzMzFhMTA1MmZiYjA2YWQ4M2ZmMzhl}
+
+Task 8 — Extra Mile (SQLi with Repeater)
+8.1 What flag do you obtain by exploiting the SQL injection via Repeater?
+→ THM{ZGE3OTUyZGMyMzkwNjJmZjg3Mzk1NjJh}
+
+Task 9 — Conclusion
+• No answer needed
