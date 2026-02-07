@@ -1,0 +1,26 @@
+Subdomain Enumeration — Task-Wise Answers
+
+Task 1 — Brief
+
+What is a subdomain enumeration method beginning with B? → Brute Force
+
+What is a subdomain enumeration method beginning with O? → OSINT
+
+What is a subdomain enumeration method beginning with V? → Virtual Host
+
+Task 2 — OSINT — SSL/TLS Certificates
+• What domain was logged on crt.sh at 2020-12-26? → store.tryhackme.com
+
+Task 3 — OSINT — Search Engines
+• What is the TryHackMe subdomain beginning with B discovered using the above Google search? → blog.tryhackme.com
+
+Task 4 — DNS Bruteforce
+• What is the first subdomain found with DNS bruteforce? → web55.acmeitsupport.thm
+(Some walkthroughs list api.acmeitsupport.thm here, depending on which enumeration tool is simulated; but Rahul’s lists web55.acmeitsupport.thm as the result after running Sublist3r – so we include his ordering.)
+
+Task 5 — OSINT with Sublist3r
+• What is the subdomain discovered with Sublist3r? → web55.acmeitsupport.thm
+
+Task 6 — Virtual Hosts
+• First subdomain discovered using virtual host enumeration (ffuf/wordlist): → delta
+• Second subdomain discovered using virtual host enumeration: → yellow
