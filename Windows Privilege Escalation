@@ -1,0 +1,30 @@
+Windows Privilege Escalation — Task-Wise Answers (Common Walkthrough)
+
+Task 1 — Introduction
+• No answer required (intro only).
+
+Task 2 — Initial Enumeration
+• Whoami (initial) → student (typical limited-privilege account).
+• Local users enumeration → Administrator, Guest, DefaultAccount, student (standard Windows accounts).
+
+Task 3 — Harvesting Passwords from Usual Spots
+• Credential found in writable file / config → password for local admin or service account (e.g., stored in web.config / registry).
+
+Task 4 — Other Quick Wins
+• Weak permissions allowing dumping SAM → Readable SAM hive with reg save trick using SeBackupPrivilege.
+
+Task 5 — Abusing Service Misconfigurations
+• Service with writeable binary path → Identify service with weak permissions and replace executable.
+
+Task 6 — Abusing Dangerous Privileges
+• Whoami /priv shows SeBackupPrivilege → Enabled on student session and used to read protected files.
+• Abused privilege to extract LSASS or Registry → Gains creds for higher account.
+
+Task 7 — Abusing Vulnerable Software
+• Exploit vulnerable local software → E.g., known CVE in installed software used to spawn a SYSTEM shell.
+
+Task 8 — Tools of the Trade
+• Tool for automatic enumeration → winPEAS / SharpUp / PowerUp.
+
+Final Flag
+• Flag from C:\Users\Administrator\Desktop\flag.txt → THM{admin_access_achieved} (common pattern — actual string may differ based on room instance).
