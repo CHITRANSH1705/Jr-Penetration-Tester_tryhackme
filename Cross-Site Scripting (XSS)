@@ -1,0 +1,54 @@
+Cross-Site Scripting (XSS) — Task-Wise Answers
+
+Task 1 — Basics
+
+What does XSS stand for? → Cross-Site Scripting
+
+Which property could contain the user’s session token? → document.cookie
+
+Which JavaScript method is often used as a proof-of-concept? → alert()
+
+Task 2 — Types of XSS
+4. Where in a URL is it logical to test for reflected XSS? → Parameters
+5. How are XSS payloads usually stored on a site? → in a database (for stored XSS)
+6. What does DOM stand for? → Document Object Model
+7. Which unsafe JavaScript function is good to look for in DOM-based XSS? → eval()
+
+Task 3 — Stored / Blind XSS
+8. Which tool can be used to test blind XSS? → XSS Hunter Express
+9. Which type of XSS is very similar to blind XSS? → Stored XSS
+
+Task 4 — Practical Lab Payloads (Level Exfil & Execution)
+10. Example payload that shows an alert with THM:
+
+<script>alert('THM');</script>
+
+
+(This is used in multiple levels to confirm execution.)
+
+Level where you need to escape a <textarea> to execute JS:
+Payload:
+
+</textarea><script>alert('THM');</script>
+
+
+(This executes when the handler doesn’t properly sanitize.)
+
+Payload to bypass a value attribute in an <input> field:
+
+"><script>alert('THM');</script>
+
+
+(Used on an input field where the default <script> alone doesn’t run.)
+
+Escaped payload for textarea bypass when < or > is filtered:
+
+/images/cat.jpg" onload="alert('THM');
+
+
+(This uses an image onload handler to trigger JS.)
+
+Final flag obtained after completing all levels (Level 6): → THM{XSS_MASTER}
+
+Final task: Blind XSS session cookie value (server staff cookie):
+→ 4AB305E55955197693F01D6F8FD2D321
