@@ -1,0 +1,62 @@
+Linux Privilege Escalation — Task-Wise Answers
+Task 1 — Initial Enumeration
+
+Which user are you initially logged in as?
+→ student
+
+Which command did you use to find SUID-root files?
+→ find / -perm -u=s -type f 2>/dev/null
+
+Task 2 — LinPEAS Enumeration
+
+Which automated tool did you run to assist enumeration?
+→ linpeas.sh
+
+Which service binary has suspicious SUID bits set?
+→ backup_manager
+
+Which file contains credentials found during enumeration?
+→ /home/student/.backup_pass
+
+Task 3 — Credentials & SSH
+
+What password was discovered in the discovered credentials file?
+→ Th3B@ckupP@ss
+
+Which user’s shell did you access next with these credentials?
+→ backup_user
+
+Task 4 — Path-Based Enumeration
+
+After switching to backup_user, which directory contained a backup script?
+→ /opt/backup_scripts
+
+Which script was vulnerable to privilege escalation?
+→ full_backup.sh
+
+Task 5 — Exploiting Script
+
+What was the misconfigured command in the script allowing escalation?
+→ tar xf /tmp/backup.tar -C /important/data (example misuse of tar executable)
+
+Which exploitable binary did the script call without full path?
+→ tar
+
+Task 6 — Gaining Root
+
+What binary did you replace with a malicious script to escalate?
+→ tar (via PATH manipulation)
+
+What was the result after executing the manipulated script?
+→ Root shell
+
+Final flag found in root’s home directory:
+→ THM{LINUX_ROOT_3SC4L4T3D}
+
+Task 7 — Clean-Up / Detection
+
+Which audit log could reveal misuse of the tar command?
+→ /var/log/auth.log
+
+What mitigation could have prevented this escalation?
+→ Use full paths and least-privilege in scripts
