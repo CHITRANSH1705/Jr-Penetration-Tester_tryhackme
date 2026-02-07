@@ -1,0 +1,50 @@
+Burp Suite: Other Modules — Task-Wise Answers
+
+Task 1 — Introduction
+• No answer required (just read setup/intro).
+
+Task 2 — Decoder: Base64 Encode
+
+• Base64 encoded text for “Let’s Start Simple” → TGV0J3MgU3RhcnQgU2ltcGxl
+
+Task 3 — Decoder: URL Decode
+
+• URL decode %4e%65%78%74%3a%20%44%65%63%6f%64%69%6e%67 → Next: Decoding
+
+Task 4 — Decoder: Smart Decode
+
+• Smart Decode decoded value of &#x25;&#x33;&#x34;&#x25;&#x33;&#x37; → 47
+
+Task 4 — Decoder: Composite Encoding
+
+• Final encoded string (base64 → ASCII Hex → Octal) for “Encoding Challenge”:
+→ 24034214a720270024142d541357471232250253552c1162d1206c
+
+Task 5 — Hashing with Decoder
+
+• SHA-256 hashsum of “Let’s get Hashing!”, HEX output:
+→ 6b72350e719a8ef5af560830164b13596cb582757437e21d1879502072238abe
+
+• MD4 hashsum of “Insecure Algorithms”, Base64 output:
+→ TcV4QGZZN7y7lwYFRMMoeA==
+
+Task 5 — Hash Collision Investigation
+
+• Correct SSH key filename matching MD5 3166226048d6ad776370dc105d40d9f8:
+→ key3
+
+Task 6 — Comparer Output
+
+• No specific flag here — the task is to compare two sets of data to see differences (no submission).
+
+Task 7 — Sequencer Entropy Analysis
+
+• Overall quality of randomness estimated by Sequencer: → excellent (entropy assessment)
+
+Task 8 — Sequencer Live Capture & Analysis
+
+• No specific text answer beyond the entropy result; this task involves capturing tokens and then reviewing the entropy report.
+
+Task 9 — Organizer Overview
+
+• Are saved requests read-only? (yea/nay) → yea
