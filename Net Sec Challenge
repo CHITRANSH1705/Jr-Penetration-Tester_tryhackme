@@ -1,0 +1,36 @@
+Net Sec Challenge — Task-Wise Answers
+
+Task 1 — Introduction
+• No answer needed (intro)
+
+Task 2 — Nmap & Port Enumeration
+
+2.1 What is the highest port number open less than 10,000?
+→ 8080
+
+2.2 There is an open port outside the common 1,000 ports (above 10,000). What is it?
+→ 10021
+
+2.3 How many TCP ports are open?
+→ 6
+
+Task 3 — Banner Flags
+
+3.1 What is the flag hidden in the HTTP server header?
+→ THM{web_server_25352}
+
+3.2 What is the flag hidden in the SSH server header?
+→ THM{946219583339}
+
+Task 4 — FTP Enumeration
+
+4.1 What is the version of the FTP server on the non-standard port?
+→ vsftpd 3.0.5
+
+4.2 We learned two usernames using social engineering: eddie and quinn. What is the flag hidden in one of these two account files and accessible via FTP?
+→ Flag found in quinn’s FTP directory — (exact THM flag text varies in writeups; examples include a numeric flag file)
+
+Task 5 — Web Service Challenge
+
+5.1 Browsing to http://TARGET_IP:8080 displays a small challenge that gives you a flag once you solve it. What is that flag?
+→ THM{f7443f99}
