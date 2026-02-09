@@ -1,0 +1,34 @@
+      Protocols and Servers 2 — Task‑Wise Answers
+Task 2 — Sniffing Attack
+
+2.1 What do you need to add to the command sudo tcpdump to capture only Telnet traffic?
+→ port 23
+
+2.2 What is the simplest display filter you can use with Wireshark to show only IMAP traffic?
+→ imap
+
+Task 3 — Man‑in‑the‑Middle (MITM) Attack
+
+3.1 How many different interfaces does Ettercap offer?
+→ 3
+
+3.2 In how many ways can you invoke Bettercap?
+→ 3
+
+Task 4 — DNS over TLS (DoT)
+
+4.1 DNS can also be secured using TLS. What is the three‑letter acronym of the DNS protocol that uses TLS?
+→ DoT
+
+Task 5 — SSH Tasks
+
+5.1 Use SSH to connect to <target> as mark with the password XBtc49AB. Using uname ‑r, find the Kernel release?
+→ 5.4.0‑84‑generic
+
+5.2 Use SSH to download the file book.txt from the remote system. How many KBs did scp display as download size?
+→ 415 KB
+
+Task 6 — IMAP Password Attack
+
+6.1 We learned that one of the email accounts is lazie. What is the password used to access the IMAP service on MACHINE_IP?
+→ butterfly
