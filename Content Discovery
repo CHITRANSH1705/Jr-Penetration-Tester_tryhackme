@@ -1,0 +1,55 @@
+Content Discovery — Task-Wise Answers
+
+Task 1 — What Is Content Discovery?
+
+Content Discovery method beginning with M: → Manually
+
+Content Discovery method beginning with A: → Automated
+
+Content Discovery method beginning with O: → OSINT (Open-Source Intelligence)
+
+Task 2 — Manual Discovery — Robots.txt
+
+• Directory in robots.txt that isn’t allowed to be viewed by web crawlers:
+→ /staff-portal
+
+Task 3 — Manual Discovery — Favicon
+
+• Framework the favicon belonged to: → cgiirc
+
+Task 4 — Manual Discovery — Sitemap.xml
+
+• Path of secret area in sitemap.xml: → /s3cr3t-area
+
+Task 5 — Manual Discovery — HTTP Headers
+
+• Flag value from the X-FLAG header: → THM{HEADER_FLAG}
+
+Task 6 — Manual Discovery — Framework Stack
+
+• Flag from the framework’s administration portal: → THM{CHANGE_DEFAULT_CREDENTIALS}
+
+Task 7 — OSINT — Google Hacking / Dorking
+
+• Google dork operator to show only results from a particular site: → site:
+
+Task 8 — OSINT — Wappalyzer
+
+• Online tool used to identify technologies a website is running: → Wappalyzer
+
+Task 9 — OSINT — Wayback Machine
+
+• Website address for the Wayback Machine: → https://archive.org/web/
+
+Task 10 — OSINT — GitHub
+
+• Git is a: → version control system
+
+Task 11 — OSINT — S3 Buckets
+
+• Amazon S3 bucket URL format ends in: → .s3.amazonaws.com
+
+Task 12 — Automated Discovery
+
+• Directory beginning with “/mo…” discovered: → /monthly
+• Name of the log file discovered: → /development.log
