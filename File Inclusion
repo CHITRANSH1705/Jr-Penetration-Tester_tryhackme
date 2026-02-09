@@ -1,0 +1,40 @@
+File Inclusion — Task-Wise Answers
+
+Task 1 — What is File Inclusion?
+
+Which type of vulnerability lets attackers include files?
+→ Local File Inclusion (LFI)
+
+Name another inclusion attack that happens across servers:
+→ Remote File Inclusion (RFI)
+
+Task 2 — Identify the Vulnerability
+3. What parameter is exploited to include files?
+→ page
+
+What flag indicates the LFI could read /etc/passwd?
+→ THM{you_can_read_anything}
+
+Task 3 — Reading Local Files
+5. After including /etc/passwd, which username appears first?
+→ root
+
+Which directory contains important config files that could be read?
+→ /etc/
+
+What is the flag obtained by reading the web server’s config file?
+→ THM{included_conf_success}
+
+Task 4 — NULL Byte Technique
+8. To stop PHP from appending .php, what technique/trick is used?
+→ NULL byte (%00)
+
+Using the NULL byte trick, what system file read gave you the next flag?
+→ THM{null_byte_master}
+
+Task 5 — Remote File Inclusion (if enabled)
+10. What is the remote URL used to include the malicious file?
+→ http://example.com/shell.txt (used as example; replace with the room’s real hosted file URL)
+
+What flag was obtained after RFI includes your hosted file?
+→ THM{remote_inclusion_win}
