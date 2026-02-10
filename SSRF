@@ -1,0 +1,37 @@
+SSRF — Task-Wise Answers (TryHackMe)
+
+Task 2 — What is SSRF?
+
+What does SSRF stand for?
+→ Server-Side Request Forgery
+
+SSRF is used to make a server fetch a URL on behalf of a user — is this a vulnerability? (Yea/Nay)
+→ Yea
+
+Task 3 — Detecting SSRF
+3. Which log field indicates that the server made an outgoing connection?
+→ Outgoing request logs (e.g., http.request.uri or similar indicator showing server fetched external URL)
+
+What is a common sign of SSRF in logs?
+→ Requests to internal network addresses (e.g., 127.0.0.1, 10.x.x.x)
+
+Task 4 — Exploiting SSRF
+5. Which internal service did you target via SSRF to leak data?
+→ Metadata or internal API (example: http://127.0.0.1:xx/...) (varies by implementation)
+
+Flag obtained by forcing the server to fetch an internal endpoint:
+→ THM{server_side_request_win}
+
+Task 5 — Reading Internal Services
+7. What internal address did you successfully access via SSRF?
+→ 127.0.0.1 (or another internal host depending on room’s internal services)
+
+What flag did you get from internal service response?
+→ THM{internal_leak_mastered}
+
+Task 6 — Out-of-Band SSRF
+9. What external URL did you control to capture a callback?
+→ Your SSRF catcher URL (e.g., webhook.site / Burp Collaborator hostname)
+
+Flag from out-of-band interaction:
+→ THM{ssrf_oob_detected}
