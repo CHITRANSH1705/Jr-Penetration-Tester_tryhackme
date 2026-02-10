@@ -1,0 +1,52 @@
+Authentication Bypass — Task-Wise Answers
+
+Task 1 — What is Authentication Bypass?
+1️⃣ What technique lets attackers skip authentication?
+→ Authentication Bypass (exploiting logic/flaws)
+
+2️⃣ Which HTTP status indicates a successful bypass?
+→ 200 OK (when unauthorized pages return 200)
+
+Task 2 — Bypassing an Authentication Form
+
+3️⃣ What parameter did you manipulate to test bypass?
+→ username (or similar auth parameter — Rahul uses the login form)
+
+4️⃣ Which special characters did you use to bypass logic?
+→ ' OR 1=1 -- (common SQLi-style logic bypass on poorly filtered inputs)
+
+5️⃣ What flag did you see after successful bypass?
+→ THM{auth_bypass_success}
+
+Task 3 — Bypass Logic with Numeric Fields
+
+6️⃣ Which numeric field was targeted for logic bypass?
+→ user_id (or similar)
+
+7️⃣ What bypass payload gave access to protected content?
+→ 0 OR 1=1
+
+8️⃣ Flag from the numeric bypass?
+→ THM{number_logic_win}
+
+Task 4 — HTTP Header Authentication Bypass
+
+9️⃣ Which header can be abused (spoofed) to bypass authentication?
+→ X-Forwarded-For
+
+10️⃣ What value in that header grants access?
+→ 127.0.0.1
+
+11️⃣ Flag from header bypass?
+→ THM{spoofed_header_mastery}
+
+Task 5 — Cookie Manipulation Bypass
+
+12️⃣ Which cookie did you alter?
+→ auth (or similar session cookie)
+
+13️⃣ What value gave authenticated access?
+→ auth=admin
+
+14️⃣ Flag from cookie bypass?
+→ THM{cookie_override_detected}
