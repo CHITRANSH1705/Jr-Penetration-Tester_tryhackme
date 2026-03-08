@@ -9,7 +9,7 @@ Which HTTP status indicates a successful bypass?
 
 Task 2 — Bypassing an Authentication Form
 
-3️⃣ What parameter did you manipulate to test bypass?
+What parameter did you manipulate to test bypass?
 → username (or similar auth parameter — Rahul uses the login form)
 
 4️⃣ Which special characters did you use to bypass logic?
