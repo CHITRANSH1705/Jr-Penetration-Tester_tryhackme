@@ -19,7 +19,7 @@ What parameter did you manipulate to test bypass?
 
 Task 3 — Bypass Logic with Numeric Fields
 
-6️⃣ Which numeric field was targeted for logic bypass?
+ Which numeric field was targeted for logic bypass?
 → user_id (or similar)
 
 7️⃣ What bypass payload gave access to protected content?
