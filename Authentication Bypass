@@ -25,7 +25,7 @@ Task 3 — Bypass Logic with Numeric Fields
  What bypass payload gave access to protected content?
 → 0 OR 1=1
 
-8️⃣ Flag from the numeric bypass?
+ Flag from the numeric bypass?
 → THM{number_logic_win}
 
 Task 4 — HTTP Header Authentication Bypass
