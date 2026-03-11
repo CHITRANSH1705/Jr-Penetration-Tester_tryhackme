@@ -22,7 +22,7 @@ Task 3 — Bypass Logic with Numeric Fields
  Which numeric field was targeted for logic bypass?
 → user_id (or similar)
 
-7️⃣ What bypass payload gave access to protected content?
+ What bypass payload gave access to protected content?
 → 0 OR 1=1
 
 8️⃣ Flag from the numeric bypass?
