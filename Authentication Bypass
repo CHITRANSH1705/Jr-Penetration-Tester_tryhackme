@@ -30,7 +30,7 @@ Task 3 — Bypass Logic with Numeric Fields
 
 Task 4 — HTTP Header Authentication Bypass
 
-9️⃣ Which header can be abused (spoofed) to bypass authentication?
+Which header can be abused (spoofed) to bypass authentication?
 → X-Forwarded-For
 
 10️⃣ What value in that header grants access?
