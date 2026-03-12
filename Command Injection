@@ -1,11 +1,8 @@
                                           Command Injection — Task-Wise Answers
 
-
 Task 1 — Introduction
 • No answers required (intro only).
-
 Task 2 — Command Injection Basics
-
 2.1 What kind of vulnerability allows an attacker to execute system commands from an application?
 → Command Injection
 
