@@ -5,17 +5,13 @@ Task 1 — Introduction
 Task 2 — Command Injection Basics
 2.1 What kind of vulnerability allows an attacker to execute system commands from an application?
 → Command Injection
-
 2.2 Which characters are commonly used to chain commands in injection?
 → ; (semicolon)
-
 Task 3 — Testing for Injection
-
 3.1 What character did you append to test injection (/etc/passwd read)?
 → ;
 3.2 What file did you try to display to confirm injection?
 → /etc/passwd
-
 Task 4 — Practical Exploitation
 
 4.1 What is the flag when you successfully execute a system command through the vulnerable parameter?
