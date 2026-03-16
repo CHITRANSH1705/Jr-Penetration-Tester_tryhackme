@@ -36,7 +36,7 @@ Which header can be abused (spoofed) to bypass authentication?
 1 What value in that header grants access?
 → 127.0.0.1
 
-11️⃣ Flag from header bypass?
+Flag from header bypass?
 → THM{spoofed_header_mastery}
 
 Task 5 — Cookie Manipulation Bypass
