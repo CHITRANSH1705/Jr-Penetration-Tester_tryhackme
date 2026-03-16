@@ -41,7 +41,7 @@ Flag from header bypass?
 
 Task 5 — Cookie Manipulation Bypass
 
-12️⃣ Which cookie did you alter?
+Which cookie did you alter?
 → auth (or similar session cookie)
 
 13️⃣ What value gave authenticated access?
