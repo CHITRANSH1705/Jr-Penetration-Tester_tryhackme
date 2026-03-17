@@ -44,7 +44,7 @@ Task 5 — Cookie Manipulation Bypass
 Which cookie did you alter?
 → auth (or similar session cookie)
 
-13️⃣ What value gave authenticated access?
+ What value gave authenticated access?
 → auth=admin
 
 14️⃣ Flag from cookie bypass?
