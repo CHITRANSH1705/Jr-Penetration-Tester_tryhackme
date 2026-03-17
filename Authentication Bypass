@@ -47,5 +47,5 @@ Which cookie did you alter?
  What value gave authenticated access?
 → auth=admin
 
-14️⃣ Flag from cookie bypass?
+ Flag from cookie bypass?
 → THM{cookie_override_detected}
