@@ -10,6 +10,7 @@ Content Discovery method beginning with O: → OSINT (Open-Source Intelligence)
 
 Task 2 — Manual Discovery — Robots.txt
 
+
 • Directory in robots.txt that isn’t allowed to be viewed by web crawlers:
 → /staff-portal
 
