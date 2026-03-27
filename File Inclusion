@@ -8,6 +8,7 @@ Which type of vulnerability lets attackers include files?
 Name another inclusion attack that happens across servers:
 → Remote File Inclusion (RFI)
 
+
 Task 2 — Identify the Vulnerability
 3. What parameter is exploited to include files?
 → page
