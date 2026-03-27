@@ -12,6 +12,7 @@ Task 2 — LinPEAS Enumeration
 Which automated tool did you run to assist enumeration?
 → linpeas.sh
 
+
 Which service binary has suspicious SUID bits set?
 → backup_manager
 
