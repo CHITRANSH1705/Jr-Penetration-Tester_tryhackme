@@ -3,6 +3,7 @@ Task 1 — What is Authentication Bypass?
 What technique lets attackers skip authentication?
 → Authentication Bypass (exploiting logic/flaws)
 
+
 Which HTTP status indicates a successful bypass?
 → 200 OK (when unauthorized pages return 200)
 
