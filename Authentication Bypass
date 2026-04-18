@@ -15,6 +15,7 @@ What parameter did you manipulate to test bypass?
  Which special characters did you use to bypass logic?
 → ' OR 1=1 -- (common SQLi-style logic bypass on poorly filtered inputs)
 
+
  What flag did you see after successful bypass?
 → THM{auth_bypass_success}
 
