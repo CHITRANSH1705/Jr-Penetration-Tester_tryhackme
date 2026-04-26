@@ -25,7 +25,8 @@ Task 4 — Practical Lab Payloads (Level Exfil & Execution)
 <script>alert('THM');</script>
 
 
-(This is used in multiple levels to confirm execution.)
+
+(This is used in multiple levels to 
 
 Level where you need to escape a <textarea> to execute JS:
 Payload:
