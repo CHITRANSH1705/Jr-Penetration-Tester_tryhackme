@@ -26,7 +26,7 @@ Task 4 — Practical Lab Payloads (Level Exfil & Execution)
 
 
 
-(This is used in multiple levels to 
+(This is used in 
 
 Level where you need to escape a <textarea> to execute JS:
 Payload:
