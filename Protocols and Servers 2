@@ -1,9 +1,9 @@
                                              Protocols and Servers 2 — Task‑Wise Answers
 Task 2 — Sniffing Attack
 
-
 2.1 What do you need to add to the command sudo tcpdump to capture only Telnet traffic?
 → port 23
+
 
 2.2 What is the simplest display filter you can use with Wireshark to show only IMAP traffic?
 → imap
