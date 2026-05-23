@@ -8,6 +8,8 @@ Which HTTP status indicates a successful bypass?
 → 200 OK (when unauthorized pages return 200)
 Task 2 — Bypassing an Authentication Form
 
+
+
 What parameter did you manipulate to test bypass?
 → username (or similar auth parameter — Rahul uses the login form)
 
