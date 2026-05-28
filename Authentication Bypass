@@ -19,6 +19,7 @@ What parameter did you manipulate to test bypass?
  What flag did you see after successful bypass?
 → THM{auth_bypass_success}
 
+
 Task 3 — Bypass Logic with Numeric Fields
 
  Which numeric field was targeted for logic bypass?
