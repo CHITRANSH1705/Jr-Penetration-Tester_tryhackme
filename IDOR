@@ -3,6 +3,7 @@
 Task 1 — What is an IDOR?
 • What does IDOR stand for? → Insecure Direct Object Reference
 
+
 Task 2 — An IDOR Example
 • What is the flag from the IDOR example website? → THM{IDOR‑VULN‑FOUND}
 
