@@ -10,6 +10,7 @@ Task 2 — An IDOR Example
 Task 3 — Finding IDORs in Encoded IDs
 • What is a common type of encoding used by websites? → base64
 
+
 Task 4 — Finding IDORs in Hashed IDs
 • What is a common algorithm used for hashing IDs? → md5
 
