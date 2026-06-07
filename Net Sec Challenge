@@ -15,6 +15,7 @@ Task 2 — Nmap & Port Enumeration
 2.3 How many TCP ports are open?
 → 6
 
+
 Task 3 — Banner Flags
 
 3.1 What is the flag hidden in the HTTP server header?
